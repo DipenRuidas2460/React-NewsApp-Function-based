@@ -123,9 +123,9 @@ News.defaultProps = {
 };
 
 News.propTypes = {
-  country: PropTypes.string,
-  pageSize: PropTypes.number,
-  category: PropTypes.string
+  country: PropTypes.string.isRequired,
+  pageSize: PropTypes.number.isRequired,
+  category: PropTypes.string.isRequired
 };
 
 
